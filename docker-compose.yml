@@ -21,7 +21,7 @@ services:
       - ./mysql-data:/var/lib/mysql
     privileged: true
   frontend:
-    image: arielbengayev/frontend:v1.0.2
+    image: arielbengayev/frontend:latest
     ports:
       - "4200:80"
     depends_on:
