@@ -22,7 +22,7 @@ services:
     privileged: true
 
   frontend:
-    image: <dockerhub username>/frontend:latest
+    image: danielgoldbergg/frontend:latest
     ports:
       - "4200:80"
     depends_on:
